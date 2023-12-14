@@ -1,0 +1,141 @@
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 40px;
+}
+.flex{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.btn-outline{
+    border: 1px solid #ffff;
+    background-color: transparent;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
+
+.text-center{
+    text-align: center;
+}
+/* Backgrounds and colored text  */
+.bg-primary,.btn-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.bg-secondary,.btn-secondary{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.bg-dark,.btn-dark{
+    color: #fff;
+    background-color: var(--dark-color);
+}
+
+.bg-light,.btn-light{
+    background-color: var(--light-color);
+    color: #000;
+}
+.bg__success{
+    background-color: #1d9c00;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+code,pre{
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 8px 10px;
+}
+.lead i{
+    margin: 0px 10px;
+}
+.sm{
+    font-size: 0.5rem;
+}
+.lg{
+    font-size: 3rem;
+}
+.xl{
+    font-size: 4rem;
+}
+
+/* margin  */
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 1.5rem 0;
+}
+.my-3{
+    margin: 2rem 0;
+}
+.my-4{
+    margin: 3rem 0;
+}
+.my-5{
+    margin: 4rem 0;
+}
+.lead{
+    font-size: 20px;
+}
+
+/* padding  */
+
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 1.5rem 0;
+}
+.py-3{
+    padding: 2rem 0;
+}
+.py-4{
+    padding: 3rem 0;
+}
+.py-5{
+    padding: 4rem 0;
+}
+
+.p1{
+    padding: 1rem;
+}
+.p2{
+    padding: 1rem;
+}
+.p3{
+    padding: 1rem;
+}
+.p4{
+    padding: 1rem;
+}
+.p5{
+    padding: 1rem;
+}
